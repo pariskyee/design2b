@@ -1,0 +1,15 @@
+h1 {
+    position: absolute;
+    top: 20px;
+    left:550px;
+
+}
+
+.text {
+    background-color:white ;
+    font-size: 100px;
+}
+
+.text:hover {
+    background-color: rgb(252, 209, 216);
+}

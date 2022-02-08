@@ -1,0 +1,10 @@
+
+h1 { color: #306229; }
+h1 {border-style: dashed;}
+.author { font-weight: bold;}
+.color { color: #5A4407; }
+p.size {font-size: 50px;}
+body {
+    background-color: #FECEC4;
+  }
+

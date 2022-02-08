@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: lightgray;
+    margin:0px;
+    padding:0px;
+}
+
+#img{
+ width:200px;   
+}
+
+div {
+    width: 200px;
+}
+
+/*This is the blue shape*/
+
+#blue{
+   background-color:skyblue;
+    height:65px;
+}
+
+/*COMPLETE CSS BELOW*/
+
+#yellow{
+    background-color:#F8E30D ;
+    height:30px;
+}
+
+
+#black{
+    background-color:#000000 ;
+    height:40px;
+}
+
+#gold{
+    background-color:#F8C80D ;
+    height:20px;
+}
+
+#green{
+    background-color:#2e442b ;
+    height:40px;
+    
+}
+
+

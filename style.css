@@ -1,0 +1,161 @@
+h1{
+    background-color: rgba(181, 174, 208, 1);
+    font-size: 100px;
+    color:#FFFFFF;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+P{
+    text-align: center;
+}
+
+#square {
+	width: 3400px;
+	height: 500px;
+	background: rgb(232, 218, 255);
+	position: relative;
+	top: 30%;
+    left: 10%;
+    width: 80vw;
+    display: flex;
+}
+
+.intro {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 30%;
+    left: 10%;
+    width: 80vw;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(247, 235, 255);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.mybutton {
+  align-items: center;
+  background-color: rgba(181, 174, 208, 1);
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mybutton:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.mybutton:hover:after {
+  transform: translate(0, 0);
+}
+
+.mybutton:active {
+  background-color: rgba(181, 174, 208, 1);
+  outline: 0;
+}
+
+.mybutton:hover {
+  outline: 0;
+}
+
+nav {
+  width: 200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .mybutton {
+    padding: 0 40px;
+  }
+}
+
+
+/* CSS 
+.mybutton {
+    background-color: transparent;
+    border: 1px solid rgb(138, 127, 182);
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .mybutton:hover,
+  .mybutton:active {
+    outline: 0;
+  }
+  
+  .mybutton:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .mybutton:before {
+    background-color: rgba(181, 174, 208, 1);
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .mybutton1:hover:before {
+    background-color: rgb(164, 146, 235);
+  }
+  
+  @media (min-width: 768px) {
+    .mybutton {
+      padding: 16px 32px;
+    }
+  }
+   */

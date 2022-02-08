@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    padding: 20px;
+    background-color: mintcream;
+}
+
+img {
+    width: 80%;
+}
+
+.flex-container {
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* add one line of CSS to make this a flex container */
+}
+
+.flex-item {
+    margin-bottom: 50px;
+ 
+    /* add one line of CSS to dictate how much space a flex-item should take up. */
+
+    /* a flex item can also be a flex container! add CSS to make flex-item a flexbox itself, then use flexbox properties to get the images inside these divs to center in the box. */
+}
+
