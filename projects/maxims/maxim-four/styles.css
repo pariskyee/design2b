@@ -128,9 +128,9 @@ a:hover .liquid{
   color: #fff;
   cursor: pointer;
   font-family: Montserrat,sans-serif;
-  font-size: .9em;
+  font-size: .6em;
   margin: 5px;
-  padding: 10px 15px;
+  padding: 5px 10px;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
@@ -138,7 +138,7 @@ a:hover .liquid{
   position: relative;
   text-align: center;
   bottom: 250px;
-  right:600px;
+  right:300px;
 }
 
 img{

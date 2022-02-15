@@ -6,10 +6,15 @@ h1{
     text-align: center;
 }
 
-P{
-    text-align: center;
+.one{
+  position:relative;
+  left:45vw;
 }
 
+.two{
+  position:relative;
+  left:42vw;
+}
 #square {
 	width: 3400px;
 	height: 500px;
@@ -23,10 +28,11 @@ P{
 
 .intro {
   font-size: 40px;
-  font-family: Arial, sans-serif;
+  line-height: 200%;
+  font-family: 'Ubuntu', sans-serif;
   position: absolute;
-  top: 30%;
-    left: 10%;
+  top: 50%;
+    left: 11%;
     width: 80vw;
     /*
     display:inline-block;
