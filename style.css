@@ -6,46 +6,33 @@ h1{
     text-align: center;
 }
 
+
 .one{
   position:relative;
-  left:45vw;
+  left:44vw;
 }
 
 .two{
   position:relative;
-  left:42vw;
+  left:41vw;
 }
-#square {
-	width: 3400px;
-	height: 500px;
-	background: rgb(232, 218, 255);
-	position: relative;
-	top: 30%;
-    left: 10%;
-    width: 80vw;
-    display: flex;
+.main-nav{
+  font-family: 'Lucida Sans';
+  position: relative;
+  text-align: center;
+  left:-6vw;
+  top:-3vw;
+  color:black;
+  font-size: 30px;
+  white-space: nowrap;
+
 }
-
-.intro {
-  font-size: 40px;
-  line-height: 200%;
-  font-family: 'Ubuntu', sans-serif;
-  position: absolute;
-  top: 50%;
-    left: 11%;
-    width: 80vw;
-    /*
-    display:inline-block;
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    position: static;
-    resize:none;
-    */
+a { text-decoration: none; }
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
 }
-
-
-
 h2{
     text-align: center;
 }
@@ -123,53 +110,3 @@ nav {
 }
 
 
-/* CSS 
-.mybutton {
-    background-color: transparent;
-    border: 1px solid rgb(138, 127, 182);
-    box-sizing: border-box;
-    color: #00132C;
-    font-family: "Avenir Next LT W01 Bold",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 23px;
-    position: relative;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .mybutton:hover,
-  .mybutton:active {
-    outline: 0;
-  }
-  
-  .mybutton:hover {
-    background-color: transparent;
-    cursor: pointer;
-  }
-  
-  .mybutton:before {
-    background-color: rgba(181, 174, 208, 1);
-    content: "";
-    height: calc(100% + 3px);
-    position: absolute;
-    right: -7px;
-    top: -9px;
-    transition: background-color 300ms ease-in;
-    width: 100%;
-    z-index: -1;
-  }
-  
-  .mybutton1:hover:before {
-    background-color: rgb(164, 146, 235);
-  }
-  
-  @media (min-width: 768px) {
-    .mybutton {
-      padding: 16px 32px;
-    }
-  }
-   */
