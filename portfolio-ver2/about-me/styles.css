@@ -113,6 +113,136 @@ nav a:hover:before{
   }
 }
 
+body {
+  /* Typography Declaration */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 11em 0;
+  background-image: url('http://dslv9ilpbe7p1.cloudfront.net/q9UbZAM0nQ1_WAFD42Re1g_store_banner_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border-top: solid 2em #ebd9f9;
+}
+
+.masthead-intro {
+  /* Text Declarations */
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic," Georgia, serif;
+  font-size: 4em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+
+.masthead-heading {
+  /*Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: light;
+  font-size: 1.5em;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* Text Declarations for Sections */
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,
+.questions-section > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+/* Section Styling */
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions-section > h2 {
+  /*Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.1 em;
+  font-weight: bold;
+  color: #dec1fa;
+}
+
+/* Footer Styling */
+
+.fa-stack fa-lg {
+  display: inline-block;
+}
+
+.footer-container > p {
+  color: white;
+}
+
+.content-footer {
+  padding: 2em 0;
+  margin-top: 3em;
+  background: #eed8f6;
+}
+
+@media only screen and (max-width: 571px) {
+  .masthead {
+      padding: 5em 0;
+  }
+  .masthead-intro {
+      font-size: 3em;
+  }
+  .masthead-heading {
+      font-size: .5em;
+  }
+  .container {
+      padding: 0 3em;
+  }
+  .footer-container {
+      padding: 0 3em;
+}
+}
+
+/*
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color: #B69760;
+}
+
+a:visited {
+  color: #B69760;
+}
+
+a: hover {
+  color: #B69760;
+}/*
+
+
+
+
+/*
 h3{
     position: relative;
     top:-4vw;
@@ -122,13 +252,13 @@ h3{
     text-align: center;
 }
 
-/* Include padding and border in total box size*/
-* {
+ Include padding and border in total box size*/
+/* {
     box-sizing: border-box;
   }
   
   /* Create two equal columns that float next to each other */
-  .column-2 {
+ /* .column-2 {
     float: left;
     width: 45%;
     padding: 40px;
@@ -144,5 +274,6 @@ h3{
   .large-profile {
     background: url('image0.jpeg\ -\ Shortcut.lnk');
     background-size: cover;
-    background-position: bottom 25px;
+    background-position: relative ; 
+
   }
